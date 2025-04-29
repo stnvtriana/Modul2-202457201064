@@ -26,20 +26,15 @@ percobaan2 mt = new percobaan2();
 System.out.println("Masukkan Diameter : "); 
 double diameter = input.nextDouble();
 System.out.println("Masukkan Jari Jari 1: ");
-double jari_jari1 = input.nextInt();
+double jari_jari1 = input.nextDouble();
     System.out.println("Masukkan Jari jari 2 :");
-    double jari_jari2 = input.nextInt();
+    double jari_jari2 = input.nextDouble();
     System.out.println("Masukkan Tinggi :");
     int tinggi = input.nextInt();
     
     System.out.println("Luas Lingkaran :" + mt.luas_lingkaran(20));
     System.out.println("Volume Tabung :" + mt.volumetabung(14, 14, 21));
-
-  
-
 }
-
-
 } 
 
 
