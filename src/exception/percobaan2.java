@@ -10,8 +10,8 @@ import java.util.Scanner;
  * @author siti novi triana
  */
 public class percobaan2 {
-    public double luas_lingkaran(int diameter) { 
-int jari2 = diameter / 2; 
+    public double luas_lingkaran(double diameter) { 
+double jari2 = diameter / 2; 
 double luas = Math.PI * Math.pow(jari2, 2); 
 return luas; 
 }   
